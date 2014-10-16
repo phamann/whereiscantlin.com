@@ -7,8 +7,8 @@
 		'fuck knows!',
 		'project managing',
 		'having a cigarette',
-		'Having a coffee and quinoa in a startup restaurant',
-		'Writing Ruby'
+		'having a coffee and quinoa in a startup restaurant',
+		'writing Ruby'
 	];
 
 	function getRandomInt(min, max) {
