@@ -5,7 +5,7 @@ var dist = resolve(__dirname + '/dist');
 var fileServerOptions = {
 	root: dist,
 	index: true,
-	maxage: 1000 * 60 * 60 * 24 * 7
+	maxage: 1000 * 60
 };
 var port = process.env.PORT || 3000;
 

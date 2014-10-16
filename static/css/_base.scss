@@ -1,17 +1,12 @@
 .logo {
-	display: block;
-    width: 300px;
-    height: 186px;
-	background: url('/img/where-is-cantlin.png');
-	background-size: 100%;
-	margin: 40px auto 20px;	
     text-indent: -9999px;
+}
 
-    @media (min-width: 600px) {
-        width: 60%;
-        max-width: 1200px;
-        height: 375px;
-    }
+.logo-img {
+	display: block;
+    width: 60%;
+    max-width: 1200px;
+    margin: 40px auto 20px;
 }
 
 .whereabouts {
