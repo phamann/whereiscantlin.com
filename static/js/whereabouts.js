@@ -3,6 +3,7 @@
 (function() {
 	var WHEREABOUTS = [
 		'working on his personal brand',
+		'working on his personal gastric band',
 		'at home writing medium posts',
 		'fuck knows!',
 		'project managing',
