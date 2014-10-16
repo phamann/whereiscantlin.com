@@ -7,8 +7,8 @@
 		'fuck knows!',
 		'project managing',
 		'having a cigarette',
-		'Having a coffee and quinoa in a startup restaurant',
-		'Writing Ruby'
+		'having a coffee and quinoa in a startup restaurant',
+		'writing Ruby'
 	];
 
 	function getRandomInt(min, max) {
@@ -16,7 +16,7 @@
     }
 
     function getRandomLocation() {
-        return WHEREABOUTS[getRandomInt(1, WHEREABOUTS.length) - 1];
+        return WHEREABOUTS[getRandomInt(0, WHEREABOUTS.length)];
     }
 
 	document.querySelector('.js-whereabouts').innerHTML = getRandomLocation();
