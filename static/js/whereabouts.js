@@ -16,7 +16,7 @@
     }
 
     function getRandomLocation() {
-        return WHEREABOUTS[getRandomInt(1, WHEREABOUTS.length) - 1];
+        return WHEREABOUTS[getRandomInt(0, WHEREABOUTS.length)];
     }
 
 	document.querySelector('.js-whereabouts').innerHTML = getRandomLocation();
