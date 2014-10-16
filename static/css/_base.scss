@@ -8,7 +8,8 @@
     text-indent: -9999px;
 
     @media (min-width: 600px) {
-        width: 600px;
+        width: 60%;
+        max-width: 1200px;
         height: 375px;
     }
 }

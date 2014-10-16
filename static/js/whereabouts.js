@@ -6,7 +6,9 @@
 		'at home writing medium posts',
 		'fuck knows!',
 		'project managing',
-		'having a cigarette'
+		'having a cigarette',
+		'Having a coffee and quinoa in a startup restaurant',
+		'Writing Ruby'
 	];
 
 	function getRandomInt(min, max) {
