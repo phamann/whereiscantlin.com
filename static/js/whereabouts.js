@@ -8,6 +8,8 @@
 		'project managing',
 		'having a cigarette',
 		'having a coffee and quinoa in a startup restaurant',
+                'watching an art house film in a rooftop cinema',
+                'in Dalston seeing a band he read about in Pitchfork Media',
 		'writing Ruby'
 	];
 
