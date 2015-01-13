@@ -10,7 +10,8 @@
 		'having a coffee and quinoa in a startup restaurant',
                 'watching an art house film in a rooftop cinema',
                 'in Dalston seeing a band he read about in Pitchfork Media',
-		'writing Ruby'
+		'writing Ruby',
+            'in an artisan tailors purchasing a foppish yet sophisticated new suit'
 	];
 
 	function getRandomInt(min, max) {
