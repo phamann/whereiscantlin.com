@@ -73,5 +73,5 @@ gulp.task('watch', function() {
     gulp.watch(SRC + '**/*.html', ['template']);
 });
 
-gulp.task('dist', ['clean', 'img', 'sass', 'js', 'template']);
+gulp.task('dist', ['clean', 'sass', 'js', 'template']);
 gulp.task('default', ['clean', 'img', 'sass', 'lint', 'js', 'template']);
