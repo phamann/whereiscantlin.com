@@ -25,6 +25,7 @@
     "node-sass": "^0.9.6"
   },
   "scripts": {
+    "predeploy": "gulp dist",
     "start": "node --harmony index.js"
   },
   "engines": {
