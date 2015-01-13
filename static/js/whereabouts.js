@@ -20,7 +20,10 @@
         	'campaigning for the Labour party in an Armani suit',
         	'preening his beard',
         	'applying for Alan\'s job',
-        	'in an artisan tailors purchasing a foppish yet sophisticated new suit'
+        	'in an artisan tailors purchasing a foppish yet sophisticated new suit',
+        	'presenting something in morning conference',
+		're-cutting his student films',
+		'promising things to people'
 	];
 
     function getRandomInt(min, max) {
