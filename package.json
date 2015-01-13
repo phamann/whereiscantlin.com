@@ -7,9 +7,7 @@
     "koa": "^0.12.2",
     "koa-compress": "^1.0.8",
     "koa-file-server": "^2.3.0",
-    "koa-logger": "^1.2.2"
-  },
-  "devDependencies": {
+    "koa-logger": "^1.2.2",
     "gulp": "^3.8.8",
     "gulp-base64": "^0.1.2",
     "gulp-clean": "^0.3.1",
