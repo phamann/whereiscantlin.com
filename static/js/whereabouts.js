@@ -10,7 +10,11 @@
 		'having a coffee and quinoa in a startup restaurant',
                 'watching an art house film in a rooftop cinema',
                 'in Dalston seeing a band he read about in Pitchfork Media',
-		'writing Ruby'
+                'writing Ruby',
+                'in Brooklyn eating a ramen burger',
+                'at a pop-up restaurant in a bathroom in Walthamstow',
+                'at Lidl buying ironically unethical Brussels sprouts',
+                'in Peckham, like everybody else'
 	];
 
 	function getRandomInt(min, max) {
