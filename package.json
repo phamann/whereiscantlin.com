@@ -23,7 +23,7 @@
     "node-sass": "^0.9.6"
   },
   "scripts": {
-    "predeploy": "gulp dist",
+    "postinstall": "./node_modules/gulp/bin/gulp.js dist",
     "start": "node --harmony index.js"
   },
   "engines": {
