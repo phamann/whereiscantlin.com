@@ -16,7 +16,10 @@
                 'at a pop-up restaurant in a bathroom in Walthamstow',
                 'at Lidl buying ironically unethical Brussels sprouts',
                 'in Peckham, like everybody else',
-                'wearing a suit and tie in the office'
+                'wearing a suit and tie in the office',
+                'campaigning for the Labour party in an Armani suit',
+                'preening his beard',
+                'applying for Alan\'s job'
 	];
 
 	function getRandomInt(min, max) {
