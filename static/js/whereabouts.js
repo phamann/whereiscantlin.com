@@ -14,7 +14,8 @@
                 'in Brooklyn eating a ramen burger',
                 'at a pop-up restaurant in a bathroom in Walthamstow',
                 'at Lidl buying ironically unethical Brussels sprouts',
-                'in Peckham, like everybody else'
+                'in Peckham, like everybody else',
+                'campaigning for socialism in an Armani suit'
 	];
 
 	function getRandomInt(min, max) {
