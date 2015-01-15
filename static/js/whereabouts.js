@@ -9,30 +9,33 @@
 		'project managing',
 		'having a cigarette',
 		'having a coffee and quinoa in a startup restaurant',
-        	'watching an art house film in a rooftop cinema',
-        	'in Dalston seeing a band he read about in Pitchfork Media',
-        	'writing Ruby',
-        	'in Brooklyn eating a ramen burger',
-        	'at a pop-up restaurant in a bathroom in Walthamstow',
-        	'at Lidl buying ironically unethical Brussels sprouts',
-        	'in Peckham, like everybody else',
-        	'wearing a suit and tie in the office',
-        	'campaigning for the Labour party in an Armani suit',
-        	'preening his beard',
-        	'applying for Alan\'s job',
-        	'in an artisan tailors purchasing a foppish yet sophisticated new suit',
-        	'presenting something in morning conference',
+		'watching an art house film in a rooftop cinema',
+		'in Dalston seeing a band he read about in Pitchfork Media',
+		'writing Ruby',
+		'in Brooklyn eating a ramen burger',
+		'at a pop-up restaurant in a bathroom in Walthamstow',
+		'at Lidl buying ironically unethical Brussels sprouts',
+		'in Peckham, like everybody else',
+		'wearing a suit and tie in the office',
+		'campaigning for the Labour party in an Armani suit',
+		'preening his beard',
+		'applying for Alan\'s job',
+		'in an artisan tailors purchasing a foppish yet sophisticated new suit',
+		'presenting something in morning conference',
 		're-cutting his student films',
-		'promising things to people'
+		'promising things to people',
+		"doing a talking head interview for a project he didn't work on",
+		"telling someone how his morning coffee was made",
+		"writing jokes for the all-hands meeting"
 	];
 
-    function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
+	function getRandomInt(min, max) {
+		return Math.floor(Math.random() * (max - min)) + min;
+	}
 
-    function getRandomLocation() {
-        return WHEREABOUTS[getRandomInt(0, WHEREABOUTS.length)];
-    }
+	function getRandomLocation() {
+		return WHEREABOUTS[getRandomInt(0, WHEREABOUTS.length)];
+	}
 
-    document.querySelector('.js-whereabouts').innerHTML = getRandomLocation();
+	document.querySelector('.js-whereabouts').innerHTML = getRandomLocation();
 })();
